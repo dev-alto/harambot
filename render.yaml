@@ -46,10 +46,4 @@ services:
       - key: VERSION
         value: "0.4.4-Beta"
 
-databases:
-- name: harambot-database
-  databaseName: harambot
-  user: harambot
-  plan: starter
-
 version: "1"
