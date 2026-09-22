@@ -12,7 +12,7 @@ from cryptography.fernet import Fernet
 from harambot.config import settings
 
 logger = logging.getLogger("discord")
-logger.setLevel(settings.LOGLEVEL)
+logger.setLevel(logging.INFO)
 
 
 if "DATABASE_URL" in settings:
